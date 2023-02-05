@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Description List</h2>
+    <dl>
+        <dt>Marina</dt>
+        <dd>Mariam buy new book</dd>
+    </dl>
+
+
+
+    <p>List of Indian States with thier capital</p>
+    <ol>
+        <li>
+            Delhi
+            <ul>
+                <li>New Delhi</li>
+            </ul>
+        </li>
+        <li>
+            Haryana
+            <ul>
+                <li>Chandigarh</li>
+            </ul>
+        </li> <li>
+            Gujarat
+            <ul>
+                <li>Gandhanjaar</li>
+            </ul>
+        </li> <li>
+            Rajasthan
+            <ul>
+                <li>Jaipur</li>
+            </ul>
+        </li> <li>
+            Maharashtara
+            <ul>
+                <li>Mumbai</li>
+            </ul>
+        </li> <li>
+            Uttarprradesh
+            <ul>
+                <li>Lucknow</li>
+            </ul>
+        </li>
+    </ol>
+    <hr>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Student Degree</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6"> Student grade</td>
+                <td>Language</td>
+                <td>Grade</td>
+                <td>Get%</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>A+</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>B</td>
+                <td>100%</td>
+            </tr><tr>
+                <td>JS</td>
+                <td>C</td>
+                <td>100%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" style="text-align:center;">Total : 85%</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <div style="background-color: cyan ;">
+        <h1>Artical 1</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolor nisi voluptatum nihil in id debitis rem? Libero earum expedita animi corporis, quod id a, quas facilis eum sunt excepturi?</p>
+        <button>art 1</button>
+        <hr>
+    </div>
+    <div style="background-color:red ;">
+        <h1>Artical 2</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolor nisi voluptatum nihil in id debitis rem? Libero earum expedita animi corporis, quod id a, quas facilis eum sunt excepturi?</p>
+        <button>art 2</button>
+    </div>
+    <hr>
+    <label for="name">Enter Your Name:</label>
+    <input type="text" name="" id="name" placeholder="Enter your name"/>
+    <label for="email">Enter Your Email</label>
+    <input type="email" name="" id="email">
+    <label for="pass">Enter Your Password</label>
+    <input type="password" name="" id="pass"> <br>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female <br>
+    <input type="checkbox" name="type"> Stay Login <br>
+    <input type="checkbox" name="type"> Leave Login <br>
+    <input type="color"> <br>
+    <input type="range" min="20" max="60" step="10"> <br>
+    <input type="submit">
+    <button type="submit">Login</button>
+    <br>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Description"></textarea>
+    <br>
+    <select name="" id="">
+        <option value="BMW">BMW</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Van">Van</option>
+    </select>
+<hr>
+<h1>Travel reservation form</h1>
+<h2>*denotes mandotory</h2>
+<label for="name">Full name*:</label> <br>
+<input type="text" name="" id="name" placeholder="FirstName LastName"/><br>
+<label for="email">Email address*</label><br>
+<input type="email" name="" id="email" placeholder="EMAIL_ADDRESS"><br>
+<label for="package">Select Tour Package</label> <br>
+<select name="" id="package">
+    <option value="Goa">Goa</option>
+    <option value="Toyota">Toyota</option>
+    <option value="Van">Van</option>
+</select>
+<br>
+<label for="arrival">Arrival Date</label> <br>
+<input type="date" name="" id="arrival"> <br>
+<label for="number">Number of persons</label> <br>
+<input type="text" id="number" placeholder="UNKOWN_TYPE"><br>
+<label for="">What would you want to avail?</label> <br>
+<input type="checkbox" name="type"> Boarding <br>
+<input type="checkbox" name="type"> Fooding <br>
+<input type="checkbox" name="type"> Sight Seeing <br>
+<label for="">Dicount Coupon code</label> <br>
+<input type="text" id="number" placeholder="UNKOWN_TYPE"><br>
+<label for="">Terms and conditions</label><br>
+<input type="radio" name="gender"> I agree
+<input type="radio" name="gender"> I disagree <br>
+<button type="submit">Compelete reservation</button>
+
+
+
+
+
+
+</body>
+</html>

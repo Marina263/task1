@@ -1,0 +1,26 @@
+<table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Marina</td>
+                <td>25</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Angel</td>
+                <td>26</td>
+                <td>A+</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" style="text-align:center;">Total : 2</td>
+            </tr>
+        </tfoot>
+    </table>
